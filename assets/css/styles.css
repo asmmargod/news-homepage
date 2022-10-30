@@ -1,0 +1,149 @@
+:root {
+  --bs-border-radius: none;
+}
+
+body {
+  font-family: "Inter";
+}
+
+hr {
+  color: hsl(36, 100%, 99%);
+}
+
+h1 {
+  color: hsl(240, 100%, 5%);
+  line-height: 4.5rem;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 15px;
+}
+
+.foreground-container {
+  background-color: hsl(36, 100%, 99%);
+  padding: 5%;
+
+}
+
+
+/* Nav-menu */
+.nav-link {
+  margin-right: 52px;
+}
+
+.nav-link:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.offcanvas {}
+
+/* Main section */
+.article-link {
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.article-link:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.main-section {
+  padding: 3% 3.5% 3% 0;
+}
+
+.card-sidebar{
+  --bs-card-border-color: none;
+  --bs-card-border-radius: none;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(35, 77%, 62%);
+
+  padding: 8% 0;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.card-subtitle {
+  padding: 3% 0;
+}
+
+.card-text {
+  color: hsl(36, 100%, 99%);
+  padding: 6% 0;
+}
+
+.btn {
+  --bs-btn-border-radius: 0;
+  --bs-btn-border-width: 0;
+  --bs-btn-hover-bg: hsl(240, 100%, 5%);
+  background-color: hsl(5, 85%, 63%);
+  margin-top: 13%;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  padding: 3% 7%;
+}
+
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.title-text {
+  padding: 4% 0;
+}
+
+.main-article {
+  letter-spacing: 0.1rem;
+}
+
+.card-bottom {
+  --bs-card-border-width: none;
+padding: 1px;
+}
+
+
+.article-link-bottom {
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.article-link-bottom:hover {
+  color: hsl(5, 85%, 63%)
+}
+
+.card-bottom {
+  --bs-card-spacer-y: 0;
+}
+
+.card-title-bottom {
+  color: hsl(233, 8%, 79%);
+  letter-spacing: 0.15rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.card-subtitle-bottom {
+
+      padding: 5% 0 2%;
+}
+
+.card-text-bottom {
+color: hsl(236, 13%, 42%);
+margin: 8% 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
